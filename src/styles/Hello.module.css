@@ -1,0 +1,23 @@
+.headerimage {
+  background-color: rgba(98, 89, 255, 0.5);
+}
+
+.area2 {
+  padding-top: 5vw;
+}
+
+.area3 {
+  filter: sepia(50%);
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+#intro {
+  background-image: url("/img/laurynas-mereckas-1TL8AoEDj_c-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
