@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Head from "next/head";
 import styles from "@/styles/Hello.module.css";
+import Link from "next/link";
 
 const Hello = () => {
   return (
@@ -17,28 +18,28 @@ const Hello = () => {
               <h5 className="mb-4">
                 Track your medicine use and best before dates easily!
               </h5>
-              <a
+              <Link
                 className="btn btn-dark btn-lg m-2"
                 href="/signup"
                 role="button"
               >
                 Register now!
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-dark btn-lg m-2"
                 href="/login"
                 role="button"
               >
                 Login
-              </a>
+              </Link>
               <br />
               <div className={styles.area2}>
-                <a
+                <Link
                   className={styles.area3 + "btn btn-outline-dark"}
                   href="#intro"
                 >
                   <i data-feather="chevrons-down" aria-hidden="true"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -133,9 +134,9 @@ const Hello = () => {
         </div>
 
         <div className="d-flex justify-content-center">
-          <a href="/kayit" className="btn btn-primary">
+          <Link href="/kayit" className="btn btn-primary">
             Hemen Başlayın!
-          </a>
+          </Link>
         </div>
       </div>
 
