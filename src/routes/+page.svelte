@@ -1,2 +1,20 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+    <title>Kusuri</title> 
+</svelte:head>
+
+<style lang="postcss">
+    :global(html) {
+      background-color: theme(colors.yellow.100);
+    }
+</style>
+
+<main class="flex flex-col h-screen">
+    <div class="m-auto">
+        <img src="/logo.svg" alt="Logo" />
+        <p>
+            Under development.
+            <a class="underline" href="https://gokay.works">my website</a> |
+            <a class="underline" href="https://github.com/naphteine/kusuri">source code</a>.
+        </p>
+    </div>
+</main>
